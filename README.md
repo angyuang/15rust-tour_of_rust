@@ -80,18 +80,29 @@ After installing the dependencies use `make` to launch the site. You will need t
 to see the changes you've made.
 Windows users should use `make.bat` instead.
 ```shell
+#0.install node.js
+https://nodejs.org/
 #1. install node.js and yarn
 npm install --global yarn
 #2.install yq
 npm install --global yq
-#3.
+#3.install dependent
 yarn
-#4.windows（make）
+#4.windows(make.bat)\ linux(make)
 make.bat clean
 make.bat serve
-#5.
+#5.git push docs
 cd docs
-#git push docs
+git init
+git add .
+git commit -m "gh-pages"
+git branch -M gh-pages
+git remote add origin https://github.com/angyuang/15rust-tour_of_rust.git
+git push -u origin gh-pages
+#6setting github pages
+Setting ---- > GitHub Pages ----> Build and deployment---->Source:Depploy from a branch ----> Branch {gh-pages:/root}
+
+
 ```
 
 # Releases
