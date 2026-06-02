@@ -1,6 +1,6 @@
 # Tour of Rust
 
-Welcome to the source repo of [Tour of Rust](https://tourofrust.com/).
+Welcome to the source repo of [Tour of Rust](https://tourofrust.com/) or [777751.xyz/15rust-tour_of_rust](https://777751.xyz/15rust-tour_of_rust/)
 
 # Goals
 
