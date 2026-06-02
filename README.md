@@ -79,6 +79,20 @@ Run `yarn` to install javascript dependencies.
 After installing the dependencies use `make` to launch the site. You will need to restart the server every time
 to see the changes you've made.
 Windows users should use `make.bat` instead.
+```shell
+#1. install node.js and yarn
+npm install --global yarn
+#2.install yq
+npm install --global yq
+#3.
+yarn
+#4.windows（make）
+make.bat clean
+make.bat serve
+#5.
+cd docs
+#git push docs
+```
 
 # Releases
 
